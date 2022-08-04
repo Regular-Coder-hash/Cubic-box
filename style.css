@@ -1,0 +1,179 @@
+.maindiv{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    margin: 0px auto;
+    background-color: ;
+    
+    
+  }
+  body{
+    background-color:black ;
+  }
+  .square{
+    width:150px;
+    height:150px;
+    background:yellow;
+    border:solid 2px black;
+    position: absolute;
+    top: 160px;
+    transform: skew(180deg,210deg);
+    left: 40px;
+
+  }
+  .square1{
+    width:148px;
+    height:150px;
+    background:yellow;
+    border:solid 2px black;
+    position: absolute;
+    top: 160px;
+    transform: skew(180deg,150deg);
+    left: 190px; ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .square2{
+    width:175px;
+    height:150px;
+    background: yellow;
+    border:solid 2px black;
+    position: absolute;
+    left: 64px;
+    top: 47px;
+    
+    transform: rotate(150deg) translate(-40px, -16px) skew(30deg, 0deg);
+    
+  }
+
+  .inner{
+      background-color:green ;
+      height: 50px;
+      width: 150px;
+      display: flex;
+     
+  }
+  .inner1{
+    background-color:blue ;
+    height: 50px;
+    width: 150px;
+    display:flex ;
+}
+.inner2{
+    background-color:red ;
+    height: 50px;
+    width: 150px;
+   display:flex ; 
+}
+.scube{
+    background-color: green;
+    width: 50px;
+    height: 50px;
+    border: solid black 1px;
+    
+}
+
+.scube1{
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    border: solid black 1px;
+}
+.scube2{
+    background-color:yellow;
+    width: 50px;
+    height: 50px;
+    border: solid black 1px;
+    
+}
+#wrap{
+  width: 175px;
+  height: 150px;
+  background-color: blue;
+}
+.inner3{
+    background-color:green ;
+    height: 50px;
+    width: 175px;
+    display: flex;
+    }
+.inner4{
+  background-color:blue ;
+  height: 50px;
+  width: 175px;
+  display:flex ;
+}
+.inner5{
+  background-color:red ;
+  height: 50px;
+  width: 175px;
+ display:flex ; 
+}
+.scube3{
+    background-color: green;
+    width: 58px;
+    height: 50px;
+    border: solid black 1px;
+    
+    text-transform: scale(-2, -2);
+    
+    
+}
+.scube4{
+    background-color:red;
+    width:58px;
+    height: 50px;
+    border: solid black 1px;
+  
+
+    
+
+}
+.scube5{
+    background-color: yellow;
+    width: 58px;
+    height: 50px;
+    border: solid black 1px;
+    
+
+}
+
+.container {
+	width: 40px;
+	height: 40px;
+	margin: 20px auto;
+	perspective: 80px;
+}
+.move{
+  transform-style: preserve-3d;
+	/*animation: rotate 30s linear infinite;  */
+	width: 20x;
+}
+
+
+@keyframes rotate {
+	0% {
+
+	}
+	10% {
+		transform: rotateY(30deg);
+	}
+
+  10%{
+    transform: rotateX(70deg);
+  }
+}
+#wrap h3 {
+  
+ -ms-transform: rotate(-30deg);
+ -webkit-transform: rotate(-180deg);
+}
+#wrap h4 {
+  
+  -ms-transform: rotate(-30deg);
+  -webkit-transform: rotate(-180deg);
+ }
+ #wrap h5 {
+  
+  -ms-transform: rotate(-30deg);
+  -webkit-transform: rotate(-180deg);
+ }
